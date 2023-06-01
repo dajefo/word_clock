@@ -11,95 +11,47 @@
 - [Wire Connector](https://de.aliexpress.com/item/4000145341391.html?spm=a2g0o.productlist.0.0.6fdc46b9sdjcnh&algo_pvid=89ddaae7-6b22-435b-ac7c-fb46ebc3fd3c&algo_expid=89ddaae7-6b22-435b-ac7c-fb46ebc3fd3c-7&btsid=0bb0623616032993704351961ed634&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
 - [Software for the ESP Board](https://github.com/Aircoookie/WLED)
 - [WLED Usermod: wordclock](https://github.com/Aircoookie/WLED/tree/main/usermods/usermod_v2_word_clock)
+- Plexiglass
+- Frame
 - 3D Printer (I used a Creality CR-30 Printmill)
 
 <br>
 <br>
 
+## Text layout
+
+|0|1|2|3|4|5|6|7|8|9|10|11
+|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------
+|1|E|S|K|I|S|C|H|M|F|Ü|F
+|2|V|I|E|R|T|E|L|D|Z|Ä|Ä
+|3|Z|W|Ä|N|Z|G|S|I|V|O|R
+|4|A|B|O|H|A|L|B|I|E|P|M
+|5|E|I|S|Z|W|O|I|S|D|R|Ü
+|6|V|I|E|R|I|F|Ü|F|I|B|T
+|7|S|Ä|C|H|S|I|S|I|B|N|I
+|8|A|C|H|T|I|N|Ü|N|I|E|L
+|9|Z|Ä|N|I|E|R|B|E|L|F|I
+|10|Z|W|Ö|L|F|I|A|M|U|H|R
+
+<br>
+<br>
+
+## Size
+The text is 166mm x 183mm.
+The plexiglass I used is 335mm x 335mm.
+
 ## 3D Printing
-Just download the [models](/doc/3d_objects/) and you are good to go.
+Just download the [models](/doc/3d_objects/) if you want to use my setup, or create your own one.
 
 <br>
 <br>
 
 ## Software
-Download the [actual version from Aircookie's github](https://github.com/Aircoookie/WLED/releases) and flash it to the arduino board.
-
-<br>
-<br>
-
-## Soldering
-If you did order the Dev Board in the description you just can cut it in half.<br>
-It should fit to the 3D print object ground.<br>
-Soldering like the picture below.<br>
-![](/doc/pic/pic1.jpeg)
-
-<br>
-<br>
-
-Back: <br>
-![](/doc/pic/pic2.jpeg)
-
-<br>
-<br>
-
-Now attach the wires.<br>
-![](/doc/pic/pic3.jpeg)
-
-<br>
-<br>
-
-Back:<br>
-![](/doc/pic/pic4.jpeg)
-
-<br>
-<br>
-
-Now attach the wire connectors.<br>
-![](/doc/pic/pic5.jpeg)
-
-<br>
-<br>
-
-Fit the arduino board inside the 3D print.<br>
-![](/doc/pic/pic6.jpeg)
-
-<br>
-<br>
-
-![](/doc/pic/pic7.jpeg)
-
-<br>
-<br>
-
-Get the top on it (maybe you should do this before connecting the wires).<br>
-![](/doc/pic/pic8.jpeg)
-
-<br>
-<br>
-
-Finished :)<br>
-![](/doc/pic/pic9.jpeg)
-
-<br>
-
-[Video: (click on it for youtube)](https://www.youtube.com/watch?v=cf00crw5-ws):<br>
-[![wled](/doc/vid/wled.gif)](https://www.youtube.com/watch?v=cf00crw5-ws)
+Download the [actual version from Aircookie's github](https://github.com/Aircoookie/WLED/releases) and flash it to the ESP board.
+You have to activate the wordclock usermod.
 
 <br>
 <br>
 
 
-## Home Assistant
-You can use this led in Home Assistant. Just add it in integrations and it should be fully compatible with it.
 
-<br>
-<br>
-
-## Extra
-If you want to use the LED light with audio, just try [LedFX](https://github.com/ahodges9/LedFx) it works like a charm with Aircookie's Wled.<br>
-
-<br>
-
-[Video: (click on it for youtube)](https://www.youtube.com/watch?v=0bXIf_zYLFY):<br>
-[![ledfx](/doc/vid/music.gif)](https://www.youtube.com/watch?v=0bXIf_zYLFY)
