@@ -40,8 +40,12 @@
 The text is 166mm x 183mm.
 The plexiglass I used is 335mm x 335mm.
 
+<br>
+<br>
+
 ## 3D Printing
-Just download the [models](/doc/3d_objects/) if you want to use my setup, or create your own one.
+My Setup is in swiss german, you can download and modify it or use your own one.
+For my setup, just download the [models](/doc/3d_objects/).
 
 <br>
 <br>
