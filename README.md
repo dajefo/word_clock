@@ -52,7 +52,7 @@ For my setup, just download the [models](/doc/3d_objects/).
 <br>
 
 ## Software
-Download the [actual version from Aircookie's github](https://github.com/Aircoookie/WLED/releases) and flash it to the ESP board.
+Download the [actual version from Aircookie's github](https://github.com/Aircoookie/WLED/releases) and flash it to the ESP board. <br>
 You have to activate the wordclock usermod.
 
 <br>
